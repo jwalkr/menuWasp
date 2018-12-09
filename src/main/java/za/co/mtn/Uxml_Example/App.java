@@ -45,7 +45,7 @@ public class App
 		
 		//Create Map of Sessions  
 		Map<String, Session> sessions = new HashMap<String, Session>();
-
+		System.out.println("HERE");
 		//Create a connection object to the USSD Access Point
 		UxmlConnection conn = new UxmlConnection(); 	
 
